@@ -21,4 +21,34 @@
 #     c = (f - 32) * 5/9
 #     print(c, "Celsius")
 # else:
-#     print("Wrong input please try again!")
+#     print("Wrong input please try!!!!!!")
+# for number in range(3, 15):
+#     print(number)
+# name = "tanya"
+# for a in name:
+#     print(a)
+# i = 20
+# while i>1:
+#     i -= 1
+#     if i == 14:
+#         continue
+#     print (i)
+def print_result(result):
+
+
+    print("Result :" + str(result))
+one = int(input( "Enter a number:"))
+two = int(input( "Enter a number:"))
+
+result = one + two
+print_result(result)
+
+result = one - two
+print_result(result)
+
+result = one * two
+print_result(result)
+
+result = one / two
+print_result(result)
+
