@@ -33,22 +33,37 @@
 #     if i == 14:
 #         continue
 #     print (i)
-def print_result(result):
+# def print_result(result):
+#
+#
+#     print("Result :" + str(result))
+# one = int(input( "Enter a number:"))
+# two = int(input( "Enter a number:"))
+#
+# result = one + two
+# print_result(result)
+#
+# result = one - two
+# print_result(result)
+#
+# result = one * two
+# print_result(result)
+#
+# result = one / two
+# print_result(result)
+
+class User:
+    def __init__(self, name, age, color, height, weight):
+        self.name = name
+        self.age = age
+        self.color = color
+        self.height = height
+        self.weight = weight
+user1 = User("Tanya", 25, "black", 160, 50)
+user2 = User("Jack", 30, "white", 190, 80)
+user3 = User("Nick", 35, "brown", 170, 60)
 
 
-    print("Result :" + str(result))
-one = int(input( "Enter a number:"))
-two = int(input( "Enter a number:"))
-
-result = one + two
-print_result(result)
-
-result = one - two
-print_result(result)
-
-result = one * two
-print_result(result)
-
-result = one / two
-print_result(result)
-
+print(user1.age)
+print(user2.color)
+print(user3.height,user3.weight)
